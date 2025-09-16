@@ -96,16 +96,17 @@ box-shadow:  0 8px 25px rgba(0, 0, 0, 0.15), 0 4px 10px rgba(0, 0, 0, 0.1) !impo
 transform: translateY(-8px);
     }
     .icon-box {
-      width: 60px;
-      height: 60px;
-      background-color: #f1f5ff;
-      border-radius: 12px;
+      width: max-content;
+      height: max-content;
+      background-color: #afc4f8;
+      border-radius: 50px;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 1.3rem;
       color: #0d6efd;
       margin-bottom: 15px;
+      padding: 20px;
     }
     .check-icon {
       color: #f9a825;
